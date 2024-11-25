@@ -1,0 +1,16 @@
+{
+    "name": "crudgenerator/crud-generator",
+    "description": "A GUI-based CRUD generator for Laravel.",
+    "autoload": {
+        "psr-4": {
+            "CrudGenerator\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CrudGenerator\\CrudGeneratorServiceProvider"
+            ]
+        }
+    }
+}
